@@ -1,6 +1,6 @@
 body {
     background-image: url(https://www.newtraderu.com/wp-content/uploads/21-Unusual-Sigma-Males-Actions-The-Hidden-Lone-Wolf-Traits.jpg);
-    background-color: #ffffff;
+    background-color: darkgray;
 }
 
 h1{
@@ -29,7 +29,7 @@ div.header{
 
 .tabButton{
     float: left;
-    border: 1px solid green;
+    border: 1px solid pink;
     border-radius: 5px;
 
     width: 200px;
@@ -37,6 +37,8 @@ div.header{
     padding: 10px;
 
     background-color: thistle;
+    background-blend-mode: color-dodge;
+    opacity: 0.5;
     transition: 3s;
     transform: rotate(0);
 }
