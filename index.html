@@ -10,6 +10,20 @@
 <body>
     <h1>yac-ty-h</h1>
     <h1>jake</h1>
+    <button onclick="toggleGoofy(); play('classic chimes.wav')">
+        reveal wolf
+    </button>
+    
+    <script>
+        function toggleGoofy() {
+            document.body.classList.toggle("goofy-mode");
+        }
+        function play(filename) {
+            let sfx = new Audio("./" + filename);
+            sfx.play();
+        }
+    </script>
+    
     <p id="blurb">
         im a 3rd year mechatronic engineering & material science student <br>
         some job listing wanted html experience thus creation of website
@@ -33,6 +47,5 @@
             </td>
         </tr>
     </table>
-
 </body>
 </html>
