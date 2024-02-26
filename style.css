@@ -1,0 +1,56 @@
+body {
+    background-image: url(https://www.newtraderu.com/wp-content/uploads/21-Unusual-Sigma-Males-Actions-The-Hidden-Lone-Wolf-Traits.jpg);
+    background-color: #ffffff;
+}
+
+h1{
+    color: darkslategray;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#blurb{
+    color: white;
+    background: grey;
+    padding: 10px;
+    opacity: 0.8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+div.header{
+    color: red;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+}
+
+.tabButton{
+    float: left;
+    border: 1px solid green;
+    border-radius: 5px;
+
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+
+    background-color: thistle;
+    transition: 3s;
+    transform: rotate(0);
+}
+
+.tabButton:hover {
+    background-color:red;
+    width: 300px;
+    height: 300px;
+    transform: rotate(3600deg);
+    cursor: pointer;
+}
+
+/*
+syntax:
+    #id {}
+    .class{}
+*/
