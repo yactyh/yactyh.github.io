@@ -1,6 +1,6 @@
 body{
     background-image: url();
-    background-color: #A9A9A9;
+    background-color: rgba(215, 170, 140, 1);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,39 +14,79 @@ h1{
     text-align: center;
 }
 
-#blurb{
-    color: white;
-    background: grey;
-    padding: 10px;
-    opacity: 0.8;
-    font-size: 30px;
+h3{
+    color: black;
     text-align: center;
 }
 
-.tabButton{
-    float: left;
-    border: 1px solid pink;
-    border-radius: 5px;
+#blurb{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
 
-    width: auto;
-    height: auto;
+.goofyButton{
+    border: 0px solid black;
+    border-radius: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
     
-    opacity: 0.5;
-
-    transition: 10s;
+    opacity: 0;
+    transition: 1.5s;
+    
     background-color: white;
-    transform: rotate(0);
+    transform: rotate(-20deg);
     font-size: normal;
+    font-weight: 100;
+}
+.goofyButton:hover {
+    transition-delay: 1s;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: rotate(20deg);
+    font-size: x-large;
+    font-weight: 200;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px 10px white;
+}
+
+.box-shadow {
+    font-family: cursive, sans-serif;
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 20px 23px #7fecad;
+  }
+
+.tabButton{
+    float: left;
+    border: none;
+    border-radius: 5%;
+    padding-block: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+    opacity: 1;
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.75);
+    font-size: 18px;
     font-weight: 100;
 }
 
 .tabButton:hover {
-    background-color:red;
+    background-color:rgba(255, 255, 255, 0.2);
     height: 110%;
-    transform: rotate(720deg);
-    font-size: x-large;
-    font-weight: 1000;
+    font-size: 24px;
+    font-weight: 200;
     cursor: pointer;
 }
 
@@ -54,6 +94,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
 }
+
 
 /*
 syntax:

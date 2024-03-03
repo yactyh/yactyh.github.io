@@ -11,12 +11,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 </head>
 <body>
-    <h1>yac-ty-h</h1>
-    <h1>jake</h1>
-    
-    
-    <button onclick="toggleGoofy(); play('classic chimes.wav')">
-        reveal wolf
+    <button class="goofyButton" onclick="toggleGoofy(); play('classic chimes.wav')">
+        goofy
     </button>
     
     <script>
@@ -29,11 +25,9 @@
         }
     </script>
     
-    <p id="blurb">
-        im a 3rd year mechatronic engineering & material science student <br>
-        some job listing wanted html experience thus creation of website
-    </p>
-
+    <h1>yac-ty-h</h1>
+    <h1>jake</h1>
+    
     <!-- todo: links to other pages -->
     <table class="center">
         <td style="text-align: center;">
@@ -46,30 +40,28 @@
         </td>
     </table>
 
+    <p id="blurb">
+        I'm a 3rd year mechatronic engineering & material science student @ UNSW <br>
+        This website is to mainly to practice HTML and plug some of my socials :&#41;
+    </p>
+
     <br>
-    <br>
-    <!-- todo: -->
-    <table class="center">
-        <tr>
-            <td style="text-align:center;">
-                <a href="https://www.linkedin.com/in/jeffweiner08/" target="_blank">
-                    <button class="tabButton">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg">
-                        OPEN IN NEW TAB...
-                    </button>
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td style="text-align:center;">
-                <a href="https://www.linkedin.com/in/jeffweiner08/">
-                    <button class="tabButton">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg">
-                        open in sAME tab... (no more playing with spinny buttons..)
-                    </button>
-                </a>
-            </td>
-        </tr>
-    </table>
+
+    <div>
+    <h3>Connect with me via:</h3>
+    <form action="https://www.linkedin.com/in/jake-huang-74a878231/" target="_blank">
+        <button class="tabButton center" style="float:none;margin-bottom: 5px;" type="submit">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" width="50" height="50">
+            &nbsp LINKEDIN
+        </button>
+    </form>
+    <form action="mailto:jake.tysong@gmail.com">
+        <button class="tabButton center" style="float:none;margin-bottom: 5px;" type="submit">
+            <img src="https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png" width="50" height="50">
+            &nbsp EMAIL
+        </button>
+    </form>
+    </div>
+
 </body>
 </html>
