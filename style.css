@@ -88,7 +88,6 @@ body{
     float: left;
     border: none;
     border-radius: 5%;
-    padding-block: 10px;
 
     display: flex;
     justify-content: center;
@@ -97,13 +96,13 @@ body{
     
     opacity: 1;
     transition: 0.5s;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
     font-size: 18px;
     font-weight: 100;
 }
 
 .tabButton:hover {
-    background-color:rgba(255, 255, 255, 0.2);
+    background-color:rgba(255, 255, 255, 0.1);
     height: 110%;
     font-size: 24px;
     font-weight: 200;
