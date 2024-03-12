@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" font->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yactyh website</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <!--todo: add icon lol-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body>
+    <button class="goofyButton" onclick="toggleGoofy(); play('classic chimes.wav')">
+        goofy
+    </button>
+    
+    <script>
+        function toggleGoofy() {
+            document.body.classList.toggle("goofy-mode");
+        }
+        function play(filename) {
+            let sfx = new Audio("./" + filename);
+            sfx.play();
+        }
+    </script>
+    
+    <h1 class="heading">Jake Huang</h1>
+    
+    <!-- todo: links to other pages -->
+    <table class="center">
+        <td style="text-align: center;">
+            <a href="./index.html">
+                <button class="navButton" style="text-decoration: underline;">me</button>
+            </a>
+        </td>
+        <td>&</td>
+        <td style="text-align: center;">
+            <a href="./thoughts.html">
+                <button class="navButton">thoughts</button>
+            </a>
+        </td>
+        <td>&</td>
+        <td style="text-align: center;">
+            <a href="./piano.html">
+                <button class="navButton">music</button>
+            </a>
+        </td>
+    </table>
+
+    <h2 class="heading">about me</h2>
+    <p id="blurb">
+        I'm a 3rd year mechatronic engineering & material science student @ UNSW <br>
+        This website is to mainly to practice HTML CSS and plug some of my socials :&#41; <br><br>
+        At the moment I tutor for HSC and play & teach piano sometimes
+    </p>
+
+    <h3 class="heading">connect with me via:</h3>
+    <form action="https://www.linkedin.com/in/jake-huang-74a878231/" target="_blank">
+        <button class="tabButton center" style="float:none;margin-bottom: 5px;" type="submit">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" width="50" height="50">
+            &nbsp LINKEDIN
+        </button>
+    </form>
+    <form target="_top" action="https://mailto:jake.tysong@gmail.com">
+        <button class="tabButton center" style="float:none;margin-bottom: 5px;" type="submit">
+            <img src="https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png" width="50" height="50">
+            &nbsp EMAIL
+        </button>
+    </form>
+    
+    <br>
+    <img src="./cat.jpg" class="center" alt="adam driver" style="width: 49.8%; opacity:0.005">
+    <img src="./cat.jpg" class="center" alt="adam driver" style="width: 49.8%; opacity:0.005">
+</body>
+</html>
