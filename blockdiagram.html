@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" font->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>block diagram reduction calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <!--todo: add icon lol-->
+    <link rel="icon" type="image/x-icon" href="blockdiagramicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="blockdiagramicon.ico" />
+</head>
+
+<body>
+    <button class="goofyButton" onclick="toggleGoofy(); play('classic chimes.wav')">
+        goofy
+    </button>
+    
+    <script>
+        function toggleGoofy() {
+            document.body.classList.toggle("goofy-mode");
+        }
+        function play(filename) {
+            let sfx = new Audio("./" + filename);
+            sfx.play();
+        }
+    </script>
+    
+    <h1 class="heading">Jake Huang</h1>
+    
+    <!-- todo: links to other pages -->
+    <table class="center">
+        <td style="text-align: center;">
+            <a href="./index.html">
+                <button class="navButton">projects tab maybe?</button>
+            </a>
+        </td>
+        <td>&</td>
+        <td style="text-align: center;">
+            <a href="./thoughts.html">
+                <button class="navButton" style="text-decoration: underline;">update this later!!!</button>
+            </a>
+        </td>
+    </table>
+
+    <h2 class="heading">block diagram calculator</h2>
+    <p id="blurb">
+        insert calculator here <br>
+        lmao <br>
+
+        
+    </p>
+    <button class="goofierButton" style="opacity: 100%">
+        <img src="./adam.png" class="center" alt="adam driver" style="height: 100%">
+    </button>
+    <button class="goofierButton" style="opacity: 100%">
+        <img src="./cat.jpg" class="center" alt="adam driver" style="width: 450px; height: 450px; object-fit:fill">
+    </button>
+
+    <br>
+
+</body>
+</html>
