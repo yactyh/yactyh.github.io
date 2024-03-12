@@ -4,7 +4,9 @@ body{
 }
 
 .goofy-mode{
-    background-image: url(https://www.newtraderu.com/wp-content/uploads/21-Unusual-Sigma-Males-Actions-The-Hidden-Lone-Wolf-Traits.jpg);
+    background-image: url("./cat.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
 }
 
 .heading{
@@ -65,7 +67,7 @@ body{
 .goofierButton:hover {
     transform: rotate3d(1,1,0,45deg);
     cursor: pointer;
-    box-shadow: 2px 2px 10px 10px white;
+    box-shadow: 2px 2px 50px 50px rgb(255,255,255,0.9);
 }
 
 .navButton{
